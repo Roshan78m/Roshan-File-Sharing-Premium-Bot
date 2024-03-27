@@ -16,7 +16,7 @@ from datetime import datetime
 from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE_SUB_CHANNEL, CHANNEL_ID, PORT
 
 
-name ="""By @Madflix_Bots From Telegram"""
+name ="""By @animes_Paradox From Telegram"""
 
 
 class Bot(Client):
@@ -60,7 +60,7 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning(f"Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value {CHANNEL_ID}")
-            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/MadflixBots_Support for support")
+            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/spy_radios for support")
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
