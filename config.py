@@ -22,12 +22,13 @@ API_HASH = os.environ.get("API_HASH", "")
 OWNER = os.environ.get("OWNER", "") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "")) #Owner user id
 DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+DB_NAME = os.environ.get("DB_NAME", "@SPY_RADIOS")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 SECONDS = int(os.getenv("SECONDS", "600")) # auto delete in seconds
 
